@@ -2,6 +2,14 @@
 
 This example shows how to send email in a Spring Boot application. We use a Mailtrap service as SMTP server [We need to register an account if we do not have Mailtrap account]
 
+###### Technology Stack
+```diff
++ Java 11
++ Spring Boot 2.5.1.RELEASE
++ Feemarker
++ Spring Boot Rest API
+```
+
 ###### 1. Dependency for Spring Boot Mail
 ```
 <dependency>
