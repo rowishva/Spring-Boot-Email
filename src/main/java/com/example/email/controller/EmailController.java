@@ -19,7 +19,7 @@ public class EmailController {
 	@GetMapping(value = "/sendmail")
 	public String sendmail() {
 		Email mail = new Email();
-		mail.setTo("rowishva@gmail.com");
+		mail.setTo("tomail@gmail.com");
 		mail.setSubject("Test Subject");
 		mail.setContent("Test mail");
 		mail.setFrom("no-reply@tenet.com");		
@@ -30,7 +30,7 @@ public class EmailController {
 	@GetMapping(value = "/sendmailwithattachment")
 	public String sendEmailWithAttachment() {
 		Email mail = new Email();
-		mail.setTo("rowishva@gmail.com");
+		mail.setTo("tomail@gmail.com");
 		mail.setSubject("Test Subject");
 		mail.setContent("Test mail");
 		mail.setFrom("no-reply@tenet.com");		
@@ -41,7 +41,7 @@ public class EmailController {
 	@GetMapping(value = "/sendmailwithtemplate")
 	public String sendEmailWithTemplate() {
 		Email mail = new Email();
-		mail.setTo("rowishva@gmail.com");
+		mail.setTo("tomail@gmail.com");
 		mail.setSubject("Test Subject form template");
 		mail.setContent("Test mail contenct");
 		mail.setFrom("no-reply@tenet.com");		
